@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+.section_title {
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 48px;
+}
+
+.create_form {
+    margin: 0 auto;
+}
+
+/* 投稿カード */
+.post-item_link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.post_body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.post_body:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.post-item_thumb-wrapper {
+    width: 100%;
+    height:250px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post_image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.post-item_content {
+    width: 100%;
+    height: 150px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.post-item_content_mypage {
+    height: 100px;
+}
+
+.post-item_bar {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.post-item_date {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: right;
+    width: 100%;
+}
+
+/* map */
+.map {
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+/* button */
+.d-flex {
+    justify-content: center;
+    gap: 200px;
+    margin-top: 40px;
+}
+
+.btn_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.btn_wrapper:hover {
+    transform: scale(1.1);
+}
+
+.btn_custom {
+    width: auto;
+    font-size: 20px;
+    margin-left: 16px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+}
+
+.btn_link {
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.btn_link img {
+    width: 40px;
+    height: 50px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.btn_centered {
+    margin: 40px auto 0;
+    width: fit-content;
+}
